@@ -4,6 +4,9 @@
   <artifactId>githubtest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <properties>
+    <brian>was here</brian>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -13,7 +16,7 @@
   </dependencies>
   <profiles>
     <profile>
-      <id>ngci</id>
+      <id>zen-jacoco</id>
       <build>
       <plugins>
         <plugin>
