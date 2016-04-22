@@ -8,7 +8,6 @@ import org.junit.Test;
 
 public class ClassOneTest {
 
-  @Test
   public void testOutput() throws Exception {
     ClassOne classOne = new ClassOne();
     PrintStream out = System.out;
